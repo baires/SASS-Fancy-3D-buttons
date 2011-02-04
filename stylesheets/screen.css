@@ -144,13 +144,20 @@ a.green {
 /* line 57, ../src/fancy_3d_buttons.scss */
 a.green:hover {
   background-color: #58ab40;
+  border-top: 1px solid #58ab40;
+  border-left: 1px solid #58ab40;
+  border-right: 0;
+  border-bottom: 1px solid #73c25d;
   -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
   -webkit-box-shadow: 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
 }
-/* line 78, ../src/fancy_3d_buttons.scss */
+/* line 82, ../src/fancy_3d_buttons.scss */
 a.green:active {
-  border: 0;
+  border-top: 1px solid #83c96f;
+  border-left: 1px solid #83c96f;
+  border-right: 0;
+  border-bottom: 1px solid #83c96f;
   position: relative;
   top: 5px;
   margin-top: 1em;
@@ -192,13 +199,20 @@ a.blue {
 /* line 57, ../src/fancy_3d_buttons.scss */
 a.blue:hover {
   background-color: #1f85cf;
+  border-top: 2px solid #1f85cf;
+  border-left: 2px solid #1f85cf;
+  border-right: 0;
+  border-bottom: 1px solid #3f9de2;
   -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
   -webkit-box-shadow: 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
 }
-/* line 78, ../src/fancy_3d_buttons.scss */
+/* line 82, ../src/fancy_3d_buttons.scss */
 a.blue:active {
-  border: 0;
+  border-top: 2px solid #55a9e6;
+  border-left: 2px solid #55a9e6;
+  border-right: 0;
+  border-bottom: 1px solid #55a9e6;
   position: relative;
   top: 5px;
   margin-top: 25px;
@@ -240,13 +254,20 @@ a.red {
 /* line 57, ../src/fancy_3d_buttons.scss */
 a.red:hover {
   background-color: #cf4d1f;
+  border-top: 2px solid #cf4d1f;
+  border-left: 2px solid #cf4d1f;
+  border-right: 0;
+  border-bottom: 1px solid #e2693f;
   -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
   -webkit-box-shadow: 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
 }
-/* line 78, ../src/fancy_3d_buttons.scss */
+/* line 82, ../src/fancy_3d_buttons.scss */
 a.red:active {
-  border: 0;
+  border-top: 2px solid #e67b55;
+  border-left: 2px solid #e67b55;
+  border-right: 0;
+  border-bottom: 1px solid #e67b55;
   position: relative;
   top: 5px;
   margin-top: 17.5px;
@@ -288,13 +309,20 @@ a.grey {
 /* line 57, ../src/fancy_3d_buttons.scss */
 a.grey:hover {
   background-color: #b2b2b2;
+  border-top: 1px solid #b2b2b2;
+  border-left: 1px solid #b2b2b2;
+  border-right: 0;
+  border-bottom: 1px solid #cccccc;
   -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
   -webkit-box-shadow: 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
 }
-/* line 78, ../src/fancy_3d_buttons.scss */
+/* line 82, ../src/fancy_3d_buttons.scss */
 a.grey:active {
-  border: 0;
+  border-top: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-right: 0;
+  border-bottom: 1px solid #d9d9d9;
   position: relative;
   top: 5px;
   margin-top: 12.5px;
@@ -336,13 +364,20 @@ button.yellow {
 /* line 57, ../src/fancy_3d_buttons.scss */
 button.yellow:hover {
   background-color: #feff56;
+  border-top: 1px solid #feff56;
+  border-left: 1px solid #feff56;
+  border-right: 0;
+  border-bottom: 1px solid #feff89;
   -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
   -webkit-box-shadow: 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
 }
-/* line 78, ../src/fancy_3d_buttons.scss */
+/* line 82, ../src/fancy_3d_buttons.scss */
 button.yellow:active {
-  border: 0;
+  border-top: 1px solid #feffa2;
+  border-left: 1px solid #feffa2;
+  border-right: 0;
+  border-bottom: 1px solid #feffa2;
   position: relative;
   top: 5px;
   margin-top: 19px;
