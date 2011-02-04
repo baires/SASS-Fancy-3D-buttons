@@ -16,7 +16,7 @@ Install the buttons module with:
     
 ##Configurable Variables
 
-    f3d_button(backgroud color, font size, font weight, line height, border radius, border top, border left)
+    f3d_button(background color, font size, font weight, line height, border radius, border top, border left)
     
 ##Mixin
 
