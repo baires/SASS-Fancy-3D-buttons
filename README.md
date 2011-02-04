@@ -4,7 +4,9 @@ A very simple but powerfull SASS recipe to create trendy CSS3 buttons.
 
 ##Demo
 
-![screenshot](http://files.droplr.com/files/14580855/hJXu.screenshot_04-02-2011_02-15.png)
+![screenshot](http://eliseos.net/test/fancy_3d_buttons/sass%20buttons%20demo.png)
+
+Don't forget to check the [live demo](http://eliseos.net/test/fancy_3d_buttons/)
 
 ##Install
 
