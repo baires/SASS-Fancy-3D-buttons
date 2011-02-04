@@ -1,0 +1,352 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 9, ../src/screen.scss */
+body {
+  background-color: #DDD;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+/* line 14, ../src/screen.scss */
+h2 {
+  font-size: 2em;
+  margin-bottom: .5em;
+  margin-top: 1em;
+  line-height: 1;
+  text-align: center;
+}
+
+/* line 22, ../src/screen.scss */
+:focus {
+  outline: none;
+}
+
+/* line 26, ../src/screen.scss */
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 29, ../src/screen.scss */
+#container {
+  width: 900px;
+  margin: 1em auto 1em;
+  overflow: hidden;
+}
+
+/* line 37, ../src/screen.scss */
+.row1,
+.row2,
+.row3 {
+  width: 850px;
+  padding-left: 50px;
+  float: left;
+  display: inline;
+}
+/* line 43, ../src/screen.scss */
+.row1 p,
+.row2 p,
+.row3 p {
+  text-align: center;
+  line-height: 3em;
+}
+
+/* line 49, ../src/screen.scss */
+a.green {
+  border-top: 1px solid #c3e5b9;
+  border-left: 1px solid #c3e5b9;
+  border-right: 0;
+  border-bottom: 1px solid #83c96f;
+  cursor: pointer;
+  overflow: visible;
+  width: auto;
+  display: inline;
+  margin: 0.3em 1em;
+  padding: 0 .5em;
+  color: #222;
+  background-color: #63bb4a;
+  font-size: 2em;
+  font-family: 'Lobster', arial, serif;
+  -webkit-background-clip: padding-box;
+  text-shadow: #c3e5b9 1px 0 2px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 1px 10px 1px #83c96f, 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
+  -webkit-box-shadow: 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
+  box-shadow: inset 0 1px 10px 1px #83c96f, 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+/* line 57, ../src/fancy_3d_buttons.scss */
+a.green:hover {
+  background-color: #58ab40;
+  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
+  -webkit-box-shadow: 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #3b742b, 0 6px 0px #326124, 0 8px 4px 1px #0c1709;
+}
+/* line 78, ../src/fancy_3d_buttons.scss */
+a.green:active {
+  border: 0;
+  position: relative;
+  top: 5px;
+  margin-top: 1em;
+  -moz-box-shadow: inset 0 1px 10px 1px #83c96f, 0px 1px 0 #3b742b, 0 2px 0 #326124, 0 4px 3px 0 #0c1709;
+  -webkit-box-shadow: 0px 1px 0 #3b742b, 0 2px 0 #326124, 0 4px 3px 0 #0c1709;
+  box-shadow: inset 0 1px 10px 1px #83c96f, 0px 1px 0 #3b742b, 0 2px 0 #326124, 0 4px 3px 0 #0c1709;
+}
+
+/* line 53, ../src/screen.scss */
+a.blue {
+  border-top: 2px solid #aed6f3;
+  border-left: 2px solid #aed6f3;
+  border-right: 0;
+  border-bottom: 1px solid #55a9e6;
+  cursor: pointer;
+  overflow: visible;
+  width: auto;
+  display: inline;
+  margin: 0.3em 1em;
+  padding: 0 .5em;
+  color: #222;
+  background-color: #2992df;
+  font-size: 50px;
+  font-family: 'Lobster', arial, serif;
+  -webkit-background-clip: padding-box;
+  text-shadow: #aed6f3 1px 0 2px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 1px 10px 1px #55a9e6, 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
+  -webkit-box-shadow: 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
+  box-shadow: inset 0 1px 10px 1px #55a9e6, 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+/* line 57, ../src/fancy_3d_buttons.scss */
+a.blue:hover {
+  background-color: #1f85cf;
+  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
+  -webkit-box-shadow: 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #155a8d, 0 6px 0px #124c77, 0 8px 4px 1px #04131e;
+}
+/* line 78, ../src/fancy_3d_buttons.scss */
+a.blue:active {
+  border: 0;
+  position: relative;
+  top: 5px;
+  margin-top: 25px;
+  -moz-box-shadow: inset 0 1px 10px 1px #55a9e6, 0px 1px 0 #155a8d, 0 2px 0 #124c77, 0 4px 3px 0 #04131e;
+  -webkit-box-shadow: 0px 1px 0 #155a8d, 0 2px 0 #124c77, 0 4px 3px 0 #04131e;
+  box-shadow: inset 0 1px 10px 1px #55a9e6, 0px 1px 0 #155a8d, 0 2px 0 #124c77, 0 4px 3px 0 #04131e;
+}
+
+/* line 57, ../src/screen.scss */
+a.red {
+  border-top: 2px solid #f3c0ae;
+  border-left: 2px solid #f3c0ae;
+  border-right: 0;
+  border-bottom: 1px solid #e67b55;
+  cursor: pointer;
+  overflow: visible;
+  width: auto;
+  display: inline;
+  margin: 0.3em 1em;
+  padding: 0 .5em;
+  color: #222;
+  background-color: #df5829;
+  font-size: 35px;
+  font-family: 'Lobster', arial, serif;
+  -webkit-background-clip: padding-box;
+  text-shadow: #f3c0ae 1px 0 2px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 1px 10px 1px #e67b55, 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
+  -webkit-box-shadow: 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
+  box-shadow: inset 0 1px 10px 1px #e67b55, 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
+  line-height: 2em;
+  text-decoration: none;
+}
+/* line 57, ../src/fancy_3d_buttons.scss */
+a.red:hover {
+  background-color: #cf4d1f;
+  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
+  -webkit-box-shadow: 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8d3415, 0 6px 0px #772c12, 0 8px 4px 1px #1e0b04;
+}
+/* line 78, ../src/fancy_3d_buttons.scss */
+a.red:active {
+  border: 0;
+  position: relative;
+  top: 5px;
+  margin-top: 17.5px;
+  -moz-box-shadow: inset 0 1px 10px 1px #e67b55, 0px 1px 0 #8d3415, 0 2px 0 #772c12, 0 4px 3px 0 #1e0b04;
+  -webkit-box-shadow: 0px 1px 0 #8d3415, 0 2px 0 #772c12, 0 4px 3px 0 #1e0b04;
+  box-shadow: inset 0 1px 10px 1px #e67b55, 0px 1px 0 #8d3415, 0 2px 0 #772c12, 0 4px 3px 0 #1e0b04;
+}
+
+/* line 61, ../src/screen.scss */
+a.grey {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 0;
+  border-bottom: 1px solid #d9d9d9;
+  cursor: pointer;
+  overflow: visible;
+  width: auto;
+  display: inline;
+  margin: 0.3em 1em;
+  padding: 0 .5em;
+  color: #222;
+  background-color: #bfbfbf;
+  font-size: 25px;
+  font-family: 'Lobster', arial, serif;
+  -webkit-background-clip: padding-box;
+  text-shadow: white 1px 0 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 1px 10px 1px #d9d9d9, 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
+  -webkit-box-shadow: 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
+  box-shadow: inset 0 1px 10px 1px #d9d9d9, 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
+  line-height: 2;
+  text-decoration: none;
+}
+/* line 57, ../src/fancy_3d_buttons.scss */
+a.grey:hover {
+  background-color: #b2b2b2;
+  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
+  -webkit-box-shadow: 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #8c8c8c, 0 6px 0px #7f7f7f, 0 8px 4px 1px #4c4c4c;
+}
+/* line 78, ../src/fancy_3d_buttons.scss */
+a.grey:active {
+  border: 0;
+  position: relative;
+  top: 5px;
+  margin-top: 12.5px;
+  -moz-box-shadow: inset 0 1px 10px 1px #d9d9d9, 0px 1px 0 #8c8c8c, 0 2px 0 #7f7f7f, 0 4px 3px 0 #4c4c4c;
+  -webkit-box-shadow: 0px 1px 0 #8c8c8c, 0 2px 0 #7f7f7f, 0 4px 3px 0 #4c4c4c;
+  box-shadow: inset 0 1px 10px 1px #d9d9d9, 0px 1px 0 #8c8c8c, 0 2px 0 #7f7f7f, 0 4px 3px 0 #4c4c4c;
+}
+
+/* line 65, ../src/screen.scss */
+button.yellow {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 0;
+  border-bottom: 1px solid #feffa2;
+  cursor: pointer;
+  overflow: visible;
+  width: auto;
+  display: inline;
+  margin: 0.3em 1em;
+  padding: 0 .5em;
+  color: #222;
+  background-color: #feff6f;
+  font-size: 38px;
+  font-family: 'Lobster', arial, serif;
+  -webkit-background-clip: padding-box;
+  text-shadow: white 1px 0 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 1px 10px 1px #feffa2, 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
+  -webkit-box-shadow: 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
+  box-shadow: inset 0 1px 10px 1px #feffa2, 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
+  line-height: 2;
+  text-decoration: none;
+}
+/* line 57, ../src/fancy_3d_buttons.scss */
+button.yellow:hover {
+  background-color: #feff56;
+  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
+  -webkit-box-shadow: 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) inset, 0px 1px 0 #fdff09, 0 6px 0px #edef00, 0 8px 4px 1px #888900;
+}
+/* line 78, ../src/fancy_3d_buttons.scss */
+button.yellow:active {
+  border: 0;
+  position: relative;
+  top: 5px;
+  margin-top: 19px;
+  -moz-box-shadow: inset 0 1px 10px 1px #feffa2, 0px 1px 0 #fdff09, 0 2px 0 #edef00, 0 4px 3px 0 #888900;
+  -webkit-box-shadow: 0px 1px 0 #fdff09, 0 2px 0 #edef00, 0 4px 3px 0 #888900;
+  box-shadow: inset 0 1px 10px 1px #feffa2, 0px 1px 0 #fdff09, 0 2px 0 #edef00, 0 4px 3px 0 #888900;
+}

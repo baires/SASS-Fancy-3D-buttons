@@ -1,0 +1,67 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "fancy_3d_buttons";
+
+body{
+     background-color: #DDD;
+     font-family: Geneva, Tahoma, Verdana, sans-serif;
+    }
+    
+h2{
+        font-size: 2em;
+        margin-bottom: .5em;
+        margin-top: 1em;
+        line-height: 1;
+        text-align: center;
+}
+
+:focus {
+        outline: none;
+}
+
+::-moz-focus-inner {
+        border: 0;
+}
+#container {
+           width:900px;
+           margin:1em auto 1em;
+           overflow: hidden;
+          }
+
+.row1,
+.row2,
+.row3{
+          width:850px;
+          padding-left:50px;
+          float:left;
+          display:inline;
+
+p{
+          text-align:center;
+          line-height: 3em;
+          }
+}
+
+a.green{
+@include f3d_button(#63bb4a);
+}
+
+a.blue{
+@include f3d_button(#2992DF, 50px, bold, 1.5em, 10px, 2px, 2px);
+}
+
+a.red{
+@include f3d_button(#DF5829, 35px, bold, 2em, 10px, 2px, 2px);
+}
+
+a.grey{
+@include f3d_button(#BFBFBF, 25px, normal, 2, 5px);
+}
+
+button.yellow{
+@include f3d_button(#FEFF6F, 38px, normal, 2, 5px);
+}
