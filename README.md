@@ -1,6 +1,6 @@
 ## SASS Fancy 3D buttons
 
-A very simple but powerfull SASS recipe to create trendy CSS3 buttons.
+A very simple but powerful SASS recipe to create trendy CSS3 on the fly.
 
 ##Demo
 
